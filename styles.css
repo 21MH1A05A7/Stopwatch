@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+*{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FAFAFA;
+}
+/* */
+.form{
+    margin: auto;
+    background: white;
+    padding: 50px;
+    border-radius: 10px;
+    width: 500px;
+    height: 7s00px;
+}
+
+.form h1{
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.form .frm{
+  display: table-caption;
+  /* padding-right: 10px; */
+  margin-bottom: 13px;
+}
+
+.form .frm label span{
+  padding-left: 5px;
+  color: red;
+}
+
+.frm p{
+  font-size: 13px;
+  margin-left: 5px;
+  margin-top: 3px;
+  color: red;
+}
+
+.form input{
+  margin-top: 6px;
+  width: 55vh;
+  border-radius: 5px;
+  border: 1px solid black;
+  outline: none;
+  padding: 7px;
+}
+
+
+.Gender{
+  display: flex;
+}
+.Gender input{
+  width: 10px;
+  height: 10px;
+  margin-right: 5px;
+}
+
+.Gender #gender_Female{
+  margin-left: 30px;
+  margin-top: 7px;
+}
+
+#gender span{
+  margin-left: 5px;
+  color: red;
+}
+
+#btn{
+  margin-top: 30px;
+  width: 55vh;
+  padding: 7px;
+  background-color: black;
+  color: #fff;
+  outline: none;
+  border: 0px;
+  border-radius: 5px
+}
+#Gender_para{
+  font-size: 13px;
+  margin-left: 5px;
+  margin-top: 3px;
+  color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.form h2{
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label, .form-group-check legend {
+    font-size: 13px;
+    margin-top: 12px;
+}
+
+span{
+    color: red;
+}
+
+.form-group input {
+    border: 1px solid #ccc;
+    outline: none;
+    background: transparent;
+    color: #3a4452;
+	border-radius: 5px;
+	display: block;
+	font-size: 15px;
+	padding: 8px;
+	width: 100%;
+    margin-top: 5px;
+}
+
+.form button{
+    padding: 10px;
+    margin-top: 30px;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 2px;
+    background-color: #3a4452;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.form-group.success input {
+    border-color: #ccc;
+}
+
+.form-group.error input {
+    border-color: #ff3860;
+}
+
+.form-group .error, .form-group-check .error{
+    margin-top: 2px;
+    display: none;
+    margin-bottom: 8px;
+    color: #ff3860;
+    font-size: 10px;
+    height: 13px;
+}
+
+
+.form-group-check input{
+    margin-top: 8px;
+} */
+
+/* .form-group-check .radios{
+    display: flex;
+}
+.form-group-check .radios .radio{
+    margin-right: 20px;
+} */
+
+/* input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+} */

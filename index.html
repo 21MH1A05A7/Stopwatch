@@ -1,0 +1,55 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+  <div class="container">
+    <div class="form">
+      <h1>Register</h1>
+      <form class="" action="index.html" method="post">
+        <div class="frm">
+          <label for="">Username<span>*</span></label>
+          <input type="text" name="Name" value="" placeholder="Enter User name" id="Username">
+          <p id="User_error"></p>
+        </div>
+        <div class="frm">
+          <label for="email">Email Id<span>*</span></label>
+          <input type="email" name="email" value="" placeholder="Enter email id" id="Email">
+          <p id="Email_error"></p>
+        </div>
+        <div class="frm">
+          <label for="">Phone<span>*</span></label>
+          <input type="text" name="" value="" placeholder="+91" id="Phone">
+          <p id="Phone_error"></p>
+        </div>
+
+        <div class="frm">
+          <label for="">Password<span>*</span></label>
+          <input type="password" name="" value="" placeholder="Minimum 8 characters" id="Password">
+          <p id="Password_errror"></p>
+        </div>
+
+        <div class="frm">
+          <label for="">Confirm password<span>*</span></label>
+          <input type="password" name="" value="" placeholder="Confirm Password" id="confirmPassword">
+          <p id="ConfPassword_error"></p>
+        </div>
+        <label for="" id="gender">Gender<span>*</span></label>
+        <div class="Gender">
+          <input type="radio" name="Gender" value="Male" id="gender_Male">
+          <label for="Male">Male</label>
+          <input type="radio" name="Gender" value="Female" id="gender_Female">
+          <label for="Female">Female</label>
+        </div>
+        <p id="Gender_para"></p>
+      </form>
+      <button type="submit" name="button" id="btn" onclick="register()">Register</button>
+    </div>
+  </div>
+</body>
+<script src="index.js"></script>
+</html>
